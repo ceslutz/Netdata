@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* estilo titulos */
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+}
+/* estilo header */
+.header {
+    background-color: #F2F4F3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* estilo logo  */
+.logo {  
+    height: 75px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    display: flex;
+} 
+    
+/* menu de navegacion  */
+ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li {
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #EB07A5;  
+}
+@media screen and (min-width: 600) {
+    .header {
+        flex-direction: column;
+        background-color: black;
+    }
+} 
+
+/* estilo carrousel    */
+.carrousel__image {
+    max width: 100%;
+    margin: 1rem;
+}
+/* estilo productos.html  */
+.productos__totales {
+    max-width: 90%;
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.productos__hogares {
+    background-image: url(../image/internet.webp);
+    width: 650px;
+    height: 511px;
+}
+.productos__empresas {
+    background-image: url(../image/Internet-1024x575.jpg);
+    width: 650px;
+    height: 511px;
+}
+
+/* estilos del footer  */
+.footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer__logo {
+    height: 75px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    
+}
+
+.iconify {
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin-right: 0.5rem;
+}
+/* estilos contacto.html  */
+.contacto__titulo {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;   
+}
+.contacto__recuadro {
+    background-color: #F2F4F3;
+}
+.contacto__formulario {
+    margin-left: 1rem;
+    color: #EB07A5;
+    font-weight: bold;
+    font-family: 'lato', sans-serif;
+}
+.contacto__contenedor {
+    padding: 00.5rem;
+}
+.contacto__btn {
+    margin-left: 10rem;
+    padding: 0.5rem;
+    background-color: #EB07A5;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+/* estilos nosotros.html  */
+.nosotros {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0.5rem;
+}
+@media screen and (max-width: 480) {
+    .nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+} 
+.nosotros__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    margin-top: 1rem;
+}
+.nosotros__1 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__2 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__3 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__4 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__5 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__texto {
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+.nosotros__parrafo {
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+/* estilos empresas.html  */
+.empresas {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.empresas__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+}
+.empresas__parrafo {
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+/* estilos hogares.html  */
+.internet {
+    display: flex;
+    justify-content: space-around;
+}
+.internet__hogares {
+    padding: 1rem;
+    background-color: black;
+}
+.internet__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    font-weight: bold;
+}
+.internet__parrafo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    font-weight: bold;
+}
+.internet__hogares--imagen {
+    padding: 1rem;
+}
+.internet__hogares--servicios {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.internet__hogares--titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    background-color: black;
+}
+.internet__hogares--parrafo {
+    font-family: 'Lato', sans-serif;
+    margin-left: 0.2rem;
+    margin-top: 0.5rem;
+
+}
+@media screen and (min-width: 600) {
+    .internet {
+        flex-direction: column;
+    }
+}
