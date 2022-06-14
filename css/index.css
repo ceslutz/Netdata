@@ -10,10 +10,10 @@
 }
 /* estilo header */
 .header {
-    background-color: #F2F4F3;
+    background-image: linear-gradient(to right top, #eb07a5, #ae1673, #731948, #3c1424, #000000);
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /* estilo logo  */
 .logo {  
@@ -27,24 +27,23 @@
 ul {
     display: flex;
     text-decoration: none;
-    list-style-type: none;
+    list-style-type: none;  
 }
 ul li {
     padding: 3rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
 ul li a {
     list-style-type: none;
     text-decoration: none;
-    color: #EB07A5;  
+    color: #EB07A5;   
 }
-@media screen and (min-width: 600) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .header {
         flex-direction: column;
         background-color: black;
     }
 } 
-
 /* estilo carrousel    */
 .carrousel__image {
     max width: 100%;
@@ -70,7 +69,7 @@ ul li a {
 
 /* estilos del footer  */
 .footer {
-    background-color: black;
+    background-image: linear-gradient(to right top, #000000, #393939, #727271, #b0b1af, #f2f4f3);
     width: 100%;
     height: auto;
     display: flex;
@@ -80,10 +79,8 @@ ul li a {
 .footer__logo {
     height: 75px;
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    
+    margin-left: 0.5rem;    
 }
-
 .iconify {
     height: 50px;
     width: 50px;
@@ -125,7 +122,7 @@ ul li a {
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 0.5rem;
 }
-@media screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
     .nosotros {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -184,8 +181,9 @@ ul li a {
     color: black;
 }
 /* estilos hogares.html  */
-.internet {
+#internet {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 .internet__hogares {
@@ -227,7 +225,7 @@ ul li a {
     margin-top: 0.5rem;
 
 }
-@media screen and (min-width: 600) {
+@media screen and (min-width: 600px) {
     .internet {
         flex-direction: column;
     }
