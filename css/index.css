@@ -44,11 +44,12 @@ ul li a {
         background-color: black;
     }
 } 
-/* estilo carrousel    */
-.carrousel__image {
-    max width: 100%;
-    margin: 1rem;
+/* estilo planes    */
+.planes {
+    display: flex;
+    justify-content: space-around;
 }
+
 /* estilo productos.html  */
 .productos__totales {
     max-width: 90%;
