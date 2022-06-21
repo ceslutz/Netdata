@@ -15,24 +15,24 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="../css/index.css">
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="logo">
         <a href="index.html"><img class="logo" src="./image/netdata1.png" alt="Logo de la marca"></a>
         </div>       
         <nav class="navegacion">
             <ul>
-                <li>
-                    <a href="./views/hogares.html">HOGARES</a>
+                <li class="navegacion__lista">
+                    <a class="navegacion__enlace" href="./views/hogares.html">HOGARES</a>
                 </li>
-                <li>
-                    <a href="./views/empresas.html">EMtraPRESAS</a>
+                <li class="navegacion__lista" class="navegacion__lista">
+                    <a class="navegacion__enlace" href="./views/empresas.html">EMPRESAS</a>
                 </li>
-                <li>
-                    <a href="./views/nosotros.html">NOSOTROS</a>
+                <li class="navegacion__lista">
+                    <a class="navegacion__enlace" href="./views/nosotros.html">NOSOTROS</a>
                 </li>
-                <li>
-                    <a href="./views/contacto.html">CONTACTO</a>
+                <li class="navegacion__lista">
+                    <a class="navegacion__enlace" href="./views/contacto.html">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -42,13 +42,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="./image/articulo-cloud.jpeg" class="d-block w-100" alt="...">
+            <img src="./image/Netdatacarou2.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-            <img src="./image/internet.webp" class="d-block w-100" alt="...">
+            <img src="./image/Netdatacarou.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./image/Internet-1024x575.jpg" class="d-block w-100" alt="...">
+                <img src="./image/Netdatacarou1.jpg" class="d-block w-100" alt="...">
             </div>
             </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -61,73 +61,100 @@
                 </button>
             </div>
         </section>
-        <section id="productos">
-            <div class="productos__totales">
+        <section class="productos">            
             <article class="productos__hogares animate__animated animate__backInLeft">
                 <h2 class="titulo"> HOGARES</h2>
             </article> 
             <article class="productos__empresas animate__animated animate__backInRight">
                 <h2 class="titulo">EMPRESAS</h2>
             </article>
-            </div>
         </section>
-        <section id="banner">
-            <img src="./image/dispositivos.png" alt="">
+        <section id="banner" class="banner">
+            <img src="./image/bannertv.jpg" alt="">
         </section>
         <section id="planes" class="planes">
-            <article>
-                <div class="card" style="width: 18rem;">
-                    <img src="./image/netdata1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Sonik 30 Megas</h5>
-                    <p class="card-text">la libertad de internet</p>
+            <article class="tarjeta">
+                <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
+                <div class="tarjeta__servicio">
+                    <img src="./image/Mask group.png" alt="">
+                    <p class="tarjeta__texto">Sonik 30 Megas</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Upstream hasta 3 Mbps</li>
-                    <li class="list-group-item">Módem WiFi disponible</li>
-                    <li class="list-group-item">5 casillas de email</li>
-                </ul>
-                <div class="card-body">
-                    <a href="./views/contacto.html" class="card-link">Consulta</a>
-                 </div>
+                <div>
+                    <img src="./image/Mask group-2.png" alt="">
+                    <p class="tarjeta__texto">WatchMe SD</p>
                 </div>
-            </article>            <article>
-                <div class="card" style="width: 18rem;">
-                    <img src="./image/netdata1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Sonik 30 Megas</h5>
-                    <p class="card-text">la libertad de internet</p>
+                <div>
+                    <img src="./image/Mask group-1.png" alt="">
+                    <p class="tarjeta__texto">Soporte Técnico</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Upstream hasta 3 Mbps</li>
-                    <li class="list-group-item">Módem WiFi disponible</li>
-                    <li class="list-group-item">5 casillas de email</li>
-                </ul>
-                <div class="card-body">
-                    <a href="./views/contacto.html" class="card-link">Consulta</a>
-                 </div>
-                </div>
+                <button type="button" class="btn btn-primary">
+                    <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
+                </button>
             </article>
-                        <article>
-                <div class="card" style="width: 18rem;">
-                    <img src="./image/netdata1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Sonik 30 Megas</h5>
-                    <p class="card-text">la libertad de internet</p>
+            <article class="tarjeta">
+                <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
+                <div>
+                    <img src="./image/Mask group.png" alt="">
+                    <p class="tarjeta__texto">Sonik 50 Megas</p>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Upstream hasta 3 Mbps</li>
-                    <li class="list-group-item">Módem WiFi disponible</li>
-                    <li class="list-group-item">5 casillas de email</li>
-                </ul>
-                <div class="card-body">
-                    <a href="./views/contacto.html" class="card-link">Consulta</a>
-                 </div>
+                <div>
+                    <img src="./image/Mask group-2.png" alt="">
+                    <p class="tarjeta__texto">WatchMe HD</p>
                 </div>
+                <div>
+                    <img src="./image/Mask group-1.png" alt="">
+                    <p class="tarjeta__texto">Soporte Técnico</p>
+                </div>
+                <button type="button" class="btn btn-primary">
+                    <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
+                </button>
             </article>
+            <article class="tarjeta">
+                <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
+                <div>
+                    <img src="./image/Mask group.png" alt="">
+                    <p class="tarjeta__texto">Sonik 100 Megas</p>
+                </div>
+                <div>
+                    <img src="./image/Mask group-2.png" alt="">
+                    <p class="tarjeta__texto">WatchMe HD</p>
+                </div>
+                <div>
+                    <img src="./image/Mask group-1.png" alt="">
+                    <p class="tarjeta__texto">Soporte Técnico</p>
+                </div>
+                <button type="button" class="btn btn-primary">
+                    <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
+                </button>
+            </article>
+            <article class="tarjeta">
+                <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
+                <div>
+                    <img src="./image/Mask group.png" alt="">
+                    <p class="tarjeta__texto">Sonik 100 Megas FTTH</p>
+                </div>
+                <div>
+                    <img src="./image/Mask group-2.png" alt="">
+                    <p class="tarjeta__texto">WatchMe 4K Premium</p>
+                </div>
+                <div>
+                    <img src="./image/Mask group-1.png" alt="">
+                    <p class="tarjeta__texto">Soporte Técnico</p>
+                </div>
+                <button type="button" class="btn btn-primary">
+                    <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
+                </button>
+               
+                    
+                    
 
 
-
+                    <!-- <button>
+                        <a class="tarjeta__boton" href="./views/contacto.html">CONSULTANOS</a>
+                    </button> -->
+                </div>
+                
+                </article>
         </section>
     </main>
     <footer id="footer" class="footer">

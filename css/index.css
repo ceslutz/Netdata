@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body {
+    background-color: #F2F4F3;
+}
 /* estilo titulos */
 .titulo {
     font-family: 'Roboto', sans-serif;
@@ -10,67 +13,146 @@
 }
 /* estilo header */
 .header {
-    background-image: linear-gradient(to right top, #eb07a5, #ae1673, #731948, #3c1424, #000000);
+    background-color: #050404;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
 }
 /* estilo logo  */
 .logo {  
-    height: 75px;
+    height: 70px;
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 } 
     
 /* menu de navegacion  */
-ul {
-    display: flex;
+.navegacion {
     text-decoration: none;
-    list-style-type: none;  
+    list-style-type: none;
+    text-align: center;
 }
-ul li {
-    padding: 3rem;
-    font-family: 'Roboto', sans-serif;   
+nav ul {
+    display: flex;
 }
-ul li a {
+.navegacion__lista {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center; 
+}
+.navegacion__enlace {
+    text-align: center;
     list-style-type: none;
     text-decoration: none;
-    color: #EB07A5;   
+    color: #eb07a5;   
+    margin: 1rem;
+    padding: 1rem;
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+.navegacion__enlace:hover {
+    background-color: #eb07a5;
+    color:white;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+@media screen and (min-width: 606px) and (max-width: 768px) {
     .header {
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         background-color: black;
     }
-} 
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: black;
+    }
+}
+/* banner customizado */
+.banner{
+    margin: 2rem;
+    max-width: 90vw;
+}
+
 /* estilo planes    */
-.planes {
+.planes{
+    margin: 2rem;
     display: flex;
     justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.tarjeta{
+    border: #000000 1px solid;
+    width: 287px;
+    height: 401px;
+    text-align: center;
+}
+.tarjeta__titulo{
+    width: 100%;
+    background-color: #050404;
+
+    color: #f2f4f3;
+}
+.tarjeta__texto{
+    font-family: 'lato', sans-serif;
+    font-size: 1.2rem;
+}
+.btn-primary{
+    text-decoration: none;
+    background-color: #EB07A5;
+    color: #F2F4F3;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-color: #EB07A5; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #050404;
+    color: #F2F4F3;
+    border-color: #050404;
+    text-decoration: none;
+    
+}
+.btn-primary :visited {
+    color: #F2F4F3;
+    text-decoration: none;
+}
+.tarjeta__boton {
+    text-decoration: none;
+    
 }
 
 /* estilo productos.html  */
-.productos__totales {
-    max-width: 90%;
-    margin: 1rem;
+.productos {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    max-width: 95%;
+    margin: auto;
+    gap: 0.5rem;
+    margin-top: 2rem;  
+
+}
+.productos__totales {
+    display: flex;   
 }
 .productos__hogares {
-    background-image: url(../image/internet.webp);
-    width: 650px;
-    height: 511px;
+    background-image: url(../image/hogares_index.jpg);
+    width: 593px;
+    height: 282px;
 }
 .productos__empresas {
-    background-image: url(../image/Internet-1024x575.jpg);
-    width: 650px;
-    height: 511px;
+    background-image: url(../image/empresas_index.jpg);
+    width: 593px;
+    height: 282px;
 }
 
 /* estilos del footer  */
 .footer {
-    background-image: linear-gradient(to right top, #000000, #393939, #727271, #b0b1af, #f2f4f3);
+    background-color: #050404;
     width: 100%;
     height: auto;
     display: flex;
@@ -111,7 +193,7 @@ ul li a {
     margin-left: 10rem;
     padding: 0.5rem;
     background-color: #EB07A5;
-    color: white;
+    color: #F2F4F3;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
