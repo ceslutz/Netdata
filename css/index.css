@@ -12,13 +12,13 @@
     color: #EB07A5;
 }
 /* estilo header */
-.header {
-    background-color: #050404;
+/* .header {
+   
     width: 100%;
     display: flex;
     justify-content: space-between;
     text-align: center;
-}
+} */
 /* estilo logo  */
 .logo {  
     height: 70px;
@@ -28,7 +28,7 @@
 } 
     
 /* menu de navegacion  */
-.navegacion {
+/* .navegacion {
     text-decoration: none;
     list-style-type: none;
     text-align: center;
@@ -70,7 +70,7 @@ nav ul {
         flex-wrap: wrap;
         background-color: black;
     }
-}
+} */
 /* banner customizado */
 .banner{
     margin: 2rem;
