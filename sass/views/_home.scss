@@ -1,0 +1,74 @@
+/* banner customizado */
+.banner{
+    margin: 2rem;
+    max-width: 90vw;
+}
+
+/* estilo planes    */
+.planes{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+.tarjeta{
+    border: #000000 1px solid;
+    width: 287px;
+    height: 401px;
+    text-align: center;
+}
+.tarjeta__titulo{
+    width: 100%;
+    background-color: #050404;
+    color: #f2f4f3;
+}
+.tarjeta__texto{
+    font-family: 'lato', sans-serif;
+    font-size: 1.2rem;
+}
+.btn-primary{
+    text-decoration: none;
+    background-color: #EB07A5;
+    color: #F2F4F3;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-color: #EB07A5; 
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #050404;
+    color: #F2F4F3;
+    border-color: #050404;
+    text-decoration: none;
+    
+}
+.btn-primary :visited {
+    color: #F2F4F3;
+    text-decoration: none;
+}
+.tarjeta__boton {
+    text-decoration: none;
+}
+.productos {
+    display: flex;
+    justify-content: space-around;
+    max-width: 95%;
+    margin: auto;
+    gap: 0.5rem;
+    margin-top: 2rem;  
+
+}
+.productos__totales {
+    display: flex;   
+}
+.productos__hogares {
+    background-image: url(../image/hogares_index.jpg);
+    width: 593px;
+    height: 282px;
+}
+.productos__empresas {
+    background-image: url(../image/empresas_index.jpg);
+    width: 593px;
+    height: 282px;
+}

@@ -1,0 +1,16 @@
+.empresas {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.empresas__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+}
+.empresas__parrafo {
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}

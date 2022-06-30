@@ -1,7 +1,7 @@
 /* MISC */
-@import "./misc/_variables";
-@import "./_misc/_normaliza";
-@import "./_misc/mixim";
+@import "./misc/variables";
+@import "./misc/normaliza";
+@import "./misc/mixim";
 
 /* PARTIALS */
 
@@ -14,3 +14,4 @@
 @import "./views/empresas";
 @import "./views/hogares";
 @import "./views/nosotros";
+@import "./views/home";

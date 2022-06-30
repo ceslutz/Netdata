@@ -1,0 +1,47 @@
+#internet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.internet__hogares {
+    padding: 1rem;
+    background-color: black;
+    
+}
+.internet__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    font-weight: bold;
+}
+.internet__parrafo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    font-weight: bold;
+}
+.internet__hogares--imagen {
+    padding: 1rem;
+}
+.internet__hogares--servicios {
+    @extend .tarjeta;
+    // height: 200px;
+    // width: 200px;
+    // border-style: solid;
+    // border-width: 2px;
+    // padding: 0.5rem;
+    // margin: 1rem;
+}
+.internet__hogares--titulo {
+    @extend .tarjeta__titulo;
+    // text-align: center;
+    // font-family: 'Roboto', sans-serif;
+    // color: #EB07A5;
+    // background-color: black;
+}
+.internet__hogares--parrafo {
+    @extend .tarjeta__texto;
+    // font-family: 'Lato', sans-serif;
+    // margin-left: 0.2rem;
+    // margin-top: 0.5rem;
+}

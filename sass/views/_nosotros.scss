@@ -1,0 +1,48 @@
+.nosotros {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 0.5rem;
+}
+@media screen and (max-width: 480px) {
+    .nosotros {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+} 
+.nosotros__titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #EB07A5;
+    margin-top: 1rem;
+}
+.nosotros__1 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__2 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__3 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__4 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__5 {
+    height:157px;
+    width: 323px;
+}
+.nosotros__texto {
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+.nosotros__parrafo {
+    padding: 0.5rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}

@@ -1,0 +1,20 @@
+/* estilos del footer  */
+.footer {
+    background-color: #050404;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer__logo {
+    height: 75px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;    
+}
+.iconify {
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin-right: 0.5rem;
+}

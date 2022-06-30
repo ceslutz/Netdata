@@ -1,29 +1,27 @@
 .contacto__titulo {
-    // color: $color-primario;
-    // font: $fuente-titulo;
- 
-
+    color: map-get($map: $colores, $key:primario );
+    font: $fuente-titulo;
+    padding: 0.5rem;
+    text-align: center;
+}
 .contacto__recuadro {
-    background-color: #F2F4F3;
-     
+    background-color: $color-secundario;
+}
 .contacto__formulario {
     margin-left: 1rem;
-    color: #EB07A5;
-    font-weight: bold;
-    font-family: 'lato', sans-serif;
-
+    @include fuente-principal;
+    // color: $color-primario;
+    // font-weight: bold;
+    font-family: $fuente-texto;
+}
 .contacto__contenedor {
     padding: 00.5rem;
-
+}
 .contacto__btn {
     margin-left: 10rem;
     padding: 0.5rem;
-    background-color: #EB07A5;
-    color: #F2F4F3;
+    background-color: $color-primario;
+    color: $color-secundario;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
-                }
-            }
-        }
-    }   
+    font-family: $fuente-titulo;
 }
