@@ -5,6 +5,13 @@
   box-sizing: border-box; }
 
 /* PARTIALS */
+.navbar {
+  background-color: #050404; }
+  .navbar .navbar-dark {
+    background-color: #050404; }
+    .navbar .navbar-dark .bg-dark {
+      background-color: #050404; }
+
 /* estilos del footer  */
 .footer {
   background-color: #050404;
@@ -75,7 +82,7 @@
 
 .internet__hogares {
   padding: 1rem;
-  background-color: black; }
+  background-color: #050404; }
 
 .internet__titulo {
   text-align: center;
