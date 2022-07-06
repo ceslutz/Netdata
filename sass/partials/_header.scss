@@ -1,10 +1,20 @@
-.navbar  {
+.navbar-dark {
     background-color: $color-terciario;
-    .navbar-dark {
-        background-color: $color-terciario;
-    
-        .bg-dark{
-            background-color: $color-terciario;
-        }
+}
+.nav-link  {
+    color: $color-secundario;
+    font-family: $fuente-titulo;
+    &:hover {
+        background-color: $color-primario;
+        border-radius: 5px;
+    }
+}
+.navbar-brand {
+    color: $color-primario;
+    font-family: $fuente-titulo;
+    font-size: 3rem;
+    font-style: italic;
+    &:hover{
+        color: $color-primario;
     }
 }

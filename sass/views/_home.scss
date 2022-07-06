@@ -1,22 +1,16 @@
-/* banner customizado */
-.banner{
-    margin: 2rem;
-    max-width: 90vw;
-}
-
 /* estilo planes    */
 .planes{
-    margin: 2rem;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
+    gap: 1.5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
 }
 .tarjeta{
     border: #000000 1px solid;
-    width: 287px;
-    height: 401px;
+    width: 285px;
+    height: 410px;
     text-align: center;
 }
 .tarjeta__titulo{
@@ -52,11 +46,12 @@
 }
 .productos {
     display: flex;
-    justify-content: space-around;
-    max-width: 95%;
-    margin: auto;
     gap: 0.5rem;
-    margin-top: 2rem;  
+    // max-width: 95%;
+    // margin: auto;
+    // gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 .productos__totales {
