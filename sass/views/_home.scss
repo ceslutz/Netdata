@@ -1,7 +1,7 @@
 /* estilo planes    */
 .planes{
     margin: auto;
-    display: flex;
+    // display: flex;
     gap: 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -9,7 +9,7 @@
 }
 .tarjeta{
     border: #000000 1px solid;
-    width: 285px;
+    width: 255px;
     height: 410px;
     text-align: center;
 }
@@ -44,26 +44,8 @@
 .tarjeta__boton {
     text-decoration: none;
 }
-.productos {
-    display: flex;
-    gap: 0.5rem;
-    // max-width: 95%;
-    // margin: auto;
-    // gap: 0.5rem;
+.banner {
+    margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-
-}
-.productos__totales {
-    display: flex;   
-}
-.productos__hogares {
-    background-image: url(../image/hogares_index.jpg);
-    width: 593px;
-    height: 282px;
-}
-.productos__empresas {
-    background-image: url(../image/empresas_index.jpg);
-    width: 593px;
-    height: 282px;
 }

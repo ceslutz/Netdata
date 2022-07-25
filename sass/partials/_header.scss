@@ -1,20 +1,23 @@
-.navbar-dark {
-    background-color: $color-terciario;
+.navbar{
+    background-color: $color-primario;
 }
 .nav-link  {
-    color: $color-secundario;
+    color: $color-terciario;
     font-family: $fuente-titulo;
     &:hover {
-        background-color: $color-primario;
+        color: $color-secundario;
         border-radius: 5px;
     }
 }
 .navbar-brand {
-    color: $color-primario;
+    color: $color-terciario;
     font-family: $fuente-titulo;
     font-size: 3rem;
     font-style: italic;
     &:hover{
-        color: $color-primario;
+        color: $color-secundario;
     }
+}
+.custom-toggler .navbar-toggler-icon{
+    color: $color-secundario;
 }

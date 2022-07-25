@@ -19,30 +19,22 @@
 </head>
 <body class="body">
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark">
-            <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">NetData</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./views/hogares.html">Hogares</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./views/empresas.html">Empresas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./views/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./views/contacto.html">Contacto</a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="./views/hogares.html">HOGARES</a>
+                <a class="nav-link" aria-current="page" href="./views/empresas.html">EMPRESAS</a>
+                <a class="nav-link" href="./views/nosotros.html">NOSOTROS</a>
+                <a class="nav-link" href="./views/contacto.html">CONTACTO</a>
             </div>
             </div>
-        </nav>
+            </div>
+        </nav>    
     </header>
     <main>
         <section id="carrousel">
@@ -68,19 +60,14 @@
                 </button>
             </div>
         </section>
-        <section class="productos container">            
-            <article class="productos__hogares animate__animated animate__backInLeft">
-                <h2 class="titulo"> HOGARES</h2>
-            </article> 
-            <article class="productos__empresas animate__animated animate__backInRight">
-                <h2 class="titulo">EMPRESAS</h2>
-            </article>
-        </section>
+        
         <section id="banner" class="container">
-            <img class="banner__img" src="./image/bannertv.jpg" alt="">
+            <img src="./image/sonik.png" class="img-fluid banner" alt="banner publicitario sonik">
+            <img src="./image/bannertv.jpg" class="img-fluid banner" alt="banner publicitario watchME">
+            <img src="./image/sonikpro.png" class="img-fluid banner" alt="banner publicitario sonikpro">
         </section>
-        <section id="planes" class=" container planes">
-            <article class="tarjeta">
+        <section id="planes" class=" container planes row">
+            <article class="tarjeta col-sm-12">
                 <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
                 <div class="tarjeta__servicio">
                     <img src="./image/Mask group.png" alt="">
@@ -98,7 +85,7 @@
                     <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
                 </button>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta col-sm-12">
                 <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
                 <div>
                     <img src="./image/Mask group.png" alt="">
@@ -116,7 +103,7 @@
                     <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
                 </button>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta col-sm-12">
                 <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
                 <div>
                     <img src="./image/Mask group.png" alt="">
@@ -134,7 +121,7 @@
                     <a class="tarjeta__boton" href="./views/contacto.html">CONSULTAR</a>
                 </button>
             </article>
-            <article class="tarjeta">
+            <article class="tarjeta col-sm-12">
                 <h3 class="tarjeta__titulo">SONIK + WATCHME</h3>
                 <div>
                     <img src="./image/Mask group.png" alt="">
@@ -154,7 +141,7 @@
             </article>
         </section>
     </main>
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer container">
         <div>
             <img class="footer__logo" src="./image/netdata1.png" alt="logo de la marca">
         </div>
@@ -163,6 +150,9 @@
             <a class="footer__iconos" href="https://twitter.com/"><span class="iconify" data-icon="jam:twitter-circle"></span></a>
             <a class="footer__iconos" href="https://whatsapp.com/"><span class="iconify" data-icon="ri:whatsapp-line"></span></a>
             <a class="footer__icon" href="mailto:contacto@netdata.com"><span class="iconify" data-icon="ci:mail"></span></a>
+        </div>
+        <div class="copyright">
+            <p class="text-white">© 2022 Copyright: ceslutz</p>
         </div>
     </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
